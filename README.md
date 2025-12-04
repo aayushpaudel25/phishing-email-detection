@@ -17,10 +17,10 @@ The goal is to compare both models using metrics like **accuracy, precision, rec
 ```text
 phishing_email_detection/
 ├── data/
-│   ├── raw/          # put your Kaggle CSV here
-│   └── processed/    # optional: saved vectorizer / encoders
-├── models/           # saved model files (.pkl)
-├── notebooks/        # optional Jupyter experiments
+│   ├── raw/          
+│   └── processed/    
+├── models/           
+├── notebooks/        
 ├── src/
 │   ├── __init__.py
 │   ├── config.py
